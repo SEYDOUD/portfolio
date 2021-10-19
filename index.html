@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="moi">
+            <a  href="#aboutme"><img src="danso.jpg" alt="pizza"></a>
+            <span><a class="profil" href="#aboutme">Mon profile</a></span>
+            <label>
+                <input type="checkbox" >
+                <span class="check"></span>
+            </label>
+            <div class="nuit">mode nuit</div>
+        </div>
+        <div class="liste">
+            <ul class="ul1">
+                <li><a href="#">____</a></li>
+                <li><a href="#">____</a></li>
+                <li><a href="#">____</a>
+                    <div>
+                        <ul class="ul2">
+                            <li><a href="#aboutme">mon profile</a></li>
+                            <li><a href="#contactezmoi">me contacter</a></li>
+                            <li><a href="#developpeur">about me</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <hr class="hr1">
+    </header>
+    <main>
+        <div class="principal">
+            <div class="gauche">
+                <img src="danso.jpg" alt="pizza">
+            </div>   
+            <div class="droite">
+                <div>
+                    <span class="un"><h1>BONJOUR,</h1></span>
+                    <span class="deux"><h1>JE M'APPELLE DANSO</h1></span>
+                    <span class="trois"><h1>bienvenue!</h1></span>
+                    
+                </div>
+                <p>
+                    Je m appelle SEYDOU DANSOGO , j ai 19ans et je suis en deuxieme annee de formation en informatique et telecom a l esmt(ecole supperieure multinationale de telecommunication) en vue de devenir un developpeur full stack a la fin de cette formation 
+                    <a class="bouton" href="#aboutme"><button>about me</button></a>
+                </p>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="centre" id="aboutme">
+            <div class="carte">
+                <img src="developpeur.png" alt="developpeur">      
+                <div class="text"><h2><a href="#developpeur">developpeur</a></h2><hr class="hr4"></div>
+                
+            </div>
+            <div class="carte">
+                <img src="competence.png" alt="competence">      
+                <div class="text"><h2><a href="#competent">competences</a></h2><hr class="hr4"></div>
+            </div>
+            <div class="carte">
+                <img src="danso.jpg" alt="">      
+                <div class="text"><h2><a href="#developpeur">about me</a></h2><hr class="hr4"></div>
+            </div>
+            <div class="carte">
+                <img src="contact.png" alt="">      
+                <div class="text"><h2><a href="#contactezmoi">contacter</a></h2><hr class="hr4"></div>
+            </div>
+            <div class="carte">
+                <img src="carriere.png" alt="">      
+                <div class="text"><h2><a href="#competent">carriere</a></h2><hr class="hr4"></div>
+            </div>
+            <div class="carte">
+                <img src="ambition.png" alt="">      
+                <div class="text"><h2><a href="#developpeur">ambitions</a></h2><hr class="hr4"></div>
+            </div>
+        </div>
+        <footer>
+            <h1><u>ABOUT US</u></h1>
+            <div class="block">
+                <div id="competent" class="competences">
+                    <h2><u>COMPETENCES</u></h2>
+                    <p>html:90%</p>
+                    <p>css:70%</p>
+                    <p>javascript:2%</p>
+                    <p>python:0%</p>
+                    <p>java:0%</p>
+                    <p>language C:30%</p>
+                </div>
+                <div  class="contact">
+                    <h2><u>CONTACT US</u></h2>
+                    <p>nous contacter plus bas</p>
+                </div>
+                <div class="apropos">
+                    <h2 id="developpeur"><u>ABOUT US</u></h2>
+                    <p >
+                        Je m appelle SEYDOU DANSOGO , j ai 19ans et je suis en deuxieme annee de formation en informatique et telecom a l esmt(ecole supperieure multinationale de telecommunication) en vue de devenir un developpeur full stack a la fin de cette formation
+                    </p>
+                </div>
+            </div>
+            <hr class="hr3">
+            <div class="contactez">
+                <h1 id="contactezmoi"><u>CONTACTEZ NOUS</u></h1>
+                <form action="#">
+                    <div><u>votre message</u></div>
+                    <div><input type="text" placeholder="name"></div>
+                    <div><input type="email" placeholder="email"></div>
+                    <div><input class="message" type="text" name="texte" placeholder="votre message..."></div>
+                    <div><input class="envoyer" type="button" value="envoyer"></div>
+                </form>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

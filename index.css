@@ -1,0 +1,314 @@
+header img{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius:50% ;
+}
+body{
+    margin: 0;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.profil{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+ul{
+    list-style: none;
+}
+
+.liste{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    background-color: white;
+    width: 80px;
+    height: 70px;
+    border-radius: 20px;
+}
+.moi{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.moi span{
+    margin-left: 10px;
+}
+.liste li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.ul2 li{
+    margin-top: 20px;
+    
+}
+.ul1{
+    line-height: 10px;
+}
+.ul2 li a{
+    color: white;
+}
+.ul2{
+    display: none;
+    margin-left: -120px;
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+}
+.liste :hover .ul2{
+    display: block;   
+}
+
+.hr1{
+    height: 2px;
+    background-color: black;
+}
+.gauche img{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid ;
+    animation: anim 5s linear infinite;
+}
+@keyframes anim{
+    0%,100%{
+        border-radius: 64% 36% 27% 73%/55% 58% 42% 45% ;
+    }
+    25%{
+        border-radius: 73% 27% 26% 38%/73% 36% 64% 27%;
+    }
+    50%{
+        border-radius: 28% 72% 44% 56%/49% 40% 60% 51%;
+    }
+    75%{
+        border-radius: 40% 60% 70% 30%/47% 62% 53% 38%;
+    }
+}
+.droite p{
+    width: 350px;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+.bouton{
+    display: block;
+    margin-top: 30px;
+    
+}
+.bouton button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.bouton button:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px blue;
+}
+.un{
+    animation: side 5s;
+    color: black;
+}
+.deux{
+    animation: slide 5s;
+}
+.trois{
+    color: black;
+    animation: slider 2s infinite;
+}
+@keyframes side{
+    0%{
+        color: white;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: black;
+    }
+}
+@keyframes slide{
+    0%{
+        color: white;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: black;
+    }
+}
+@keyframes slider{
+    0%{
+        color: white;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: black;
+    }
+   
+}
+.carte img{
+    width: 120px;
+    height: 100px;
+    border: solid;
+    border-radius: 50%;
+    background-color: white;
+}
+.carte .text{
+    width: 120px;
+    height: 100px;
+    text-align: center;
+}
+.carte{
+    border: solid;
+    margin: 16px;
+    width: 150px;
+    height: 220px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 50px auto;
+    border: solid white;
+}
+.carte *{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+
+}
+
+.carte img:hover {
+    height: 0;
+    transition: 2s;
+}
+.text h2{
+    color: white;
+    margin-top: -40px;
+    transform: translateX(-120px);
+}
+.text h2 a{
+    color: white;
+}
+.text h2 a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 1s;
+}
+.centre{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: black;
+    height: 125vh;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer h1{
+    text-align: center;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.apropos p{
+    max-width: 400px;
+}
+.hr3{
+    color: white;
+}
+.contactez h1{
+    margin-top: 10px;
+    text-align: center;
+}
+form{
+    margin-left: 25%;
+    border: solid white;
+    width: 180px;
+}
+form input{
+    margin-top: 10px;
+    width: 160px;
+}
+.message{
+    height: 70px;
+}
+.envoyer{
+    width: 70px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.hr4{
+    color: white;
+}
+.un h1,.deux h1,.trois h1{
+    font-family:cursive;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+.check{
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: ease-in-out 1s;
+    display: block;
+}
+input[type="checkbox"]:checked~.check{
+    background-color: white;
+    box-shadow: 0 0 0 1900px black;
+}
+.check:before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    transform: translate(161px,34px);
+    transition: 1s;
+}
+input[type="checkbox"]:checked~.check:before{
+    background-color: black;
+    transform: translate(182px,34px);
+}
+input[type="checkbox"]:checked .un{
+    color: white;
+}
+.nuit{
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
